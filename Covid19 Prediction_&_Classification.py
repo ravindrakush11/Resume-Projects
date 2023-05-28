@@ -120,7 +120,7 @@ if ypred[0][0] == 1:
 else:
   print("Covid Positive")
 
-
+import cv2
 image = cv2.imread('/content/CovidDataset/Train/Normal/IM-0221-0001.jpeg')
 cv2_imshow(image)
 
